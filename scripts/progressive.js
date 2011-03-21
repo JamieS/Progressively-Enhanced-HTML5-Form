@@ -35,7 +35,7 @@ yepnope({
 $(function() {
 	
 	function success(position) {
-		$("#location").text(position.coords.latitude + ", " + position.coords.longitude);
+		$("#location").val(position.coords.latitude + ", " + position.coords.longitude);
 	}
 	
 	function error(msg) {
