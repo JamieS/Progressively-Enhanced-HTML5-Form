@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Progressively Enhanced HTML5 Form</title>
+	
+	<link rel="stylesheet" href="css/style.css">
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script src="scripts/modernizr-custom.js"></script>
+	<script src="scripts/progressive.js"></script>
+</head>
+
+<body>
+	
+	<form>
+		
+		<h1>Let's Get Our<br>Enhance On</h1>
+		
+		<p>
+			This is a demo of progressively enhancing an HTML5 form. We'll use native HTML5 features when
+			they are available, and JavaScript fallbacks when they are not. This is using <a href="http://www.modernizr.com/">Modernizr</a> for 
+			feature detection, <a href="http://yepnopejs.com/">Yepnope</a> (built together with Modernizr into a single script) to load scripts 
+			and CSS as needed, and jQuery for funzies.
+		</p>
+		
+		<label>Name</label>
+		<div>
+			<input type=text name=name placeholder="Emily Blunt">
+		</div>
+		
+		<label>Email</label>
+		<div>
+			<input type=email name=email placeholder="letshangout@callme.com">
+		</div>
+		
+		<label>Available Date</label>
+		<div>
+			<input type=date name=date>
+		</div>
+		
+		<label>Hotness Scale</label>
+		<div>
+			<input type=range name=hotness min=0 max=10 value=10>
+		</div>
+		
+		<label>Where are you?</label>
+		<div>
+			<input id=location type=location name=location>
+		</div>
+		
+		<div>
+			<input type=submit value="Let's do this">
+		</div>
+		
+	</form>
+	
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+$(function() {
+
+	$(":range").rangeinput();
+				
+});

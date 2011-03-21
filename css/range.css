@@ -1,0 +1,59 @@
+.slider { 
+	background: white; 
+	height:6px; 
+	position:relative; 
+	cursor:pointer;  
+	border:1px inset #eee;
+	width:100%;
+	margin:10px 0;
+	float:left; 	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius: 5px;
+}
+
+.progress {
+	height:12px; 
+	background-color:#234;
+	display:none;
+}
+
+.handle { 
+	background: #2883e1; 
+	height:14px;
+	width:14px;
+	top:-5px;
+	position:absolute; 
+	display:block;
+	cursor:move;
+	-moz-border-radius:14px;
+	border:1px solid rgba(240, 240, 240, 0.5);
+}
+
+.range {
+	margin:3px 0 13px 5px;
+	border:0;
+	padding:0 2px;
+	background:transparent;
+	font-size:22px;	
+	color:#333;
+	width:47px;
+	text-align:left;
+}
+
+.range:before {
+	content: "Value: ";
+}
+
+.range:focus {
+	background-color:#333;
+	color:#fff;	
+}
+
+.handle:hover {
+	background-image:none;			
+}
+
+a.handle:active {
+	background-color:#3CB2FB;
+}
